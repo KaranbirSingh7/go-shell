@@ -15,7 +15,6 @@ func main() {
 
 	// read input from keyboard
 	reader := bufio.NewReader(os.Stdin)
-
 	for {
 		fmt.Printf(createPrompt())
 		input, err := reader.ReadString('\n')
